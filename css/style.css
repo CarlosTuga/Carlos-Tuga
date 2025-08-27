@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #1877f2;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: #606770;
+    margin-bottom: 2rem;
+}
+
+#pkg-url {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+#download-btn {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#download-btn:hover {
+    background-color: #166fe5;
+}
